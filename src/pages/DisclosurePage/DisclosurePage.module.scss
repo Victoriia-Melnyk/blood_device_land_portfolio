@@ -1,0 +1,5 @@
+@import '../../utils/mixins.scss';
+
+.disclosurePage {
+	@include pages-content;
+}

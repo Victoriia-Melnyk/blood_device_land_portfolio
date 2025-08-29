@@ -1,0 +1,33 @@
+.cardsList {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	&__expandButtonContainer {
+		position: relative;
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+		height: 50px;
+		padding-bottom: 50px;
+		border-bottom: 2px solid #c1c1c1;
+	}
+
+	&__expandButton {
+		position: absolute;
+		padding: 5px;
+		left: 48%;
+		transform: translateY(50%);
+
+		border: none;
+		background-color: #fff;
+	}
+
+	& > p {
+		margin-top: 20px;
+		text-align: center;
+
+		font-size: 22px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}

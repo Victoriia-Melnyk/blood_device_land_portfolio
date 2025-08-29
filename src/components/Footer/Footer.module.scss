@@ -1,0 +1,42 @@
+@import '../../utils/mixins.scss';
+
+.footer {
+	padding: 20px;
+	background-color: #f4f4f4;
+	background-color: #f1f1f1;
+	box-shadow: 0 0 5px #ccc;
+	font-size: 12px;
+
+	&__container {
+		@include container-styles;
+
+		@include flex-align;
+		flex-direction: column;
+		text-align: center;
+		gap: 20px;
+
+		p {
+			color: #808285;
+			line-height: 1.8;
+			font-size: 12px;
+			text-align: justify;
+		}
+
+		p:first-of-type {
+			text-align: center;
+		}
+	}
+
+	&__links {
+		@include flex-align;
+		gap: 5px;
+		font-size: 14px;
+		list-style: none;
+
+		a {
+			font-weight: 600;
+			text-decoration: none;
+			color: #000;
+		}
+	}
+}

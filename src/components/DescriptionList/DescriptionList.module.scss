@@ -1,0 +1,30 @@
+@import '../../utils/mixins.scss';
+
+.descriptionList {
+	list-style: none;
+
+	&--1 {
+		@include tablet {
+			columns: 1;
+			margin-bottom: 30px;
+		}
+	}
+	&--2 {
+		@include tablet {
+			columns: 2;
+			margin-bottom: 30px;
+		}
+	}
+
+	li {
+		display: flex;
+		gap: 10px;
+		break-inside: avoid;
+		margin-bottom: 10px;
+
+		img {
+			width: 20px;
+			height: 20px;
+		}
+	}
+}

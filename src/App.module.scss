@@ -1,0 +1,17 @@
+@import './utils/normalize.css';
+@import './utils/mixins.scss';
+
+.app {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #212529;
+
+	@include tablet {
+		font-size: 18px;
+	}
+
+	&__container {
+		@include container-styles;
+		padding: 40px 30px;
+	}
+}

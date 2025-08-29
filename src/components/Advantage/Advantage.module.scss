@@ -1,0 +1,29 @@
+@import '../../utils/mixins.scss';
+
+.advantage {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	&__icon {
+		width: 35px;
+		height: 35px;
+
+		@include tablet {
+			width: 55px;
+			height: 55px;
+		}
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	&__title {
+		color: rgb(37, 123, 217);
+		font-size: 20px;
+		font-weight: 600;
+	}
+}

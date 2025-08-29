@@ -1,0 +1,145 @@
+@import '../../utils/mixins.scss';
+
+.productCard {
+	position: relative;
+	width: 100%;
+	border: 2px solid #031530;
+	display: grid;
+
+	grid-template-columns: 1fr;
+	grid-auto-rows: auto;
+
+	@include desktop {
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-template-rows: 75px minmax(0, 1fr) 75px;
+	}
+
+	&--show {
+		opacity: 0;
+		transform: translateY(20px);
+		animation: fadeOut 0.8s forwards;
+
+		@keyframes fadeOut {
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+	}
+
+	&__imageContainer {
+		@include flex-align;
+
+		grid-column: 1;
+		grid-row: 1;
+		padding-top: 10px;
+		border-right: 1px solid #c1c1c1;
+
+		@include desktop {
+			grid-column: 1;
+			grid-row: 1 / 4;
+		}
+
+		img {
+			width: 200px;
+		}
+	}
+
+	&__productImage {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	&__infoTop {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		grid-column: 1;
+		grid-row: auto;
+		min-height: 75px;
+
+		border-bottom: 1px solid #c1c1c1;
+		border-top: 1px solid #c1c1c1;
+
+		@include desktop {
+			grid-column: 2;
+			grid-row: 1;
+		}
+	}
+
+	&__productName {
+		@include flex-align;
+
+		border-right: 1px solid #c1c1c1;
+	}
+
+	&__productRating {
+		@include flex-align;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	&__list {
+		grid-column: 1;
+		grid-row: 3;
+		padding: 20px 20px 0 20px;
+
+		@include desktop {
+			grid-column: 2;
+			grid-row: 2;
+			padding: 20px;
+		}
+	}
+
+	&__review {
+		min-height: 75px;
+		grid-column: 1;
+		grid-row: auto;
+
+		@include desktop {
+			grid-column: 2;
+			grid-row: 3;
+		}
+
+		@include flex-align;
+
+		font-size: 22px;
+		font-weight: 600;
+		text-decoration: underline;
+		color: #2d9f50;
+	}
+
+	&__info {
+		@include flex-align;
+
+		grid-column: 1;
+		grid-row: 5;
+		padding: 0 20px 20px 20px;
+		border-left: 1px solid #c1c1c1;
+
+		@include desktop {
+			grid-column: 3;
+			grid-row: 1 / 4;
+			padding: 20px;
+		}
+	}
+
+	&__attachment {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&__attachmentGreen {
+		transform: translateY(-50%);
+		left: -22px;
+	}
+
+	&__attachmentBlack {
+		padding: 10px 15px;
+		color: #fff;
+		background-color: #000;
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,25 @@
+@import '../../utils/mixins.scss';
+
+.productInfo {
+	@include flex-align;
+	gap: 20px;
+	flex-direction: column;
+	text-align: center;
+	& > :nth-child(1) {
+		color: #212529;
+		font-size: 50px;
+		font-weight: 700;
+
+		@include desktop {
+			font-size: 80px;
+		}
+	}
+
+	& > :nth-child(3) {
+		text-transform: uppercase;
+	}
+	& > :nth-child(5) {
+		font-weight: 700;
+		color: #2d9f50;
+	}
+}
