@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styles from './Footer.module.scss';
 
 export const Footer = () => {
@@ -7,29 +8,29 @@ export const Footer = () => {
 				<nav>
 					<ul className={styles.footer__links}>
 						<li>
-							<a href="/about" target="_blank">
+							<NavLink to="/about" target="_blank">
 								About |
-							</a>
+							</NavLink>
 						</li>
 						<li>
-							<a href="/contact" target="_blank">
+							<NavLink to="/contact" target="_blank">
 								Contact |
-							</a>
+							</NavLink>
 						</li>
 						<li>
-							<a href="/privacy" target="_blank">
+							<NavLink to="/privacy" target="_blank">
 								Privacy Policy |
-							</a>
+							</NavLink>
 						</li>
 						<li>
-							<a href="/terms" target="_blank">
+							<NavLink to="/terms" target="_blank">
 								Terms |
-							</a>
+							</NavLink>
 						</li>
 						<li>
-							<a href="/disclosure" target="_blank">
+							<NavLink to="/disclosure" target="_blank">
 								Disclosure
-							</a>
+							</NavLink>
 						</li>
 					</ul>
 				</nav>

@@ -7,15 +7,10 @@ import { PrivacyPage } from './pages/PrivacyPage';
 import { TermsPage } from './pages/TermsPage';
 import { DisclosurePage } from './pages/DisclosurePage';
 
-export const BASE_URL =
-	window.location.hostname === 'localhost'
-		? ''
-		: '/blood_device_land_portfolio';
-
 export const Root = () => (
-	<BrowserRouter>
+	<BrowserRouter basename={process.env.PUBLIC_URL}>
 		<Routes>
-			<Route path={`${BASE_URL}/`} element={<App />}>
+			<Route path={'/'} element={<App />}>
 				<Route index element={<HomePage />} />
 				<Route path="about" element={<AboutPage />} />
 				<Route path="contact" element={<ContactPage />} />
