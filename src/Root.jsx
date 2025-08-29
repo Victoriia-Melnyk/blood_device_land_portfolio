@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
 import { HomePage } from './pages/HomePage/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -8,7 +8,7 @@ import { TermsPage } from './pages/TermsPage';
 import { DisclosurePage } from './pages/DisclosurePage';
 
 export const Root = () => (
-	<BrowserRouter basename={process.env.PUBLIC_URL}>
+	<HashRouter>
 		<Routes>
 			<Route path={'/'} element={<App />}>
 				<Route index element={<HomePage />} />
@@ -19,5 +19,5 @@ export const Root = () => (
 				<Route path="disclosure" element={<DisclosurePage />} />
 			</Route>
 		</Routes>
-	</BrowserRouter>
+	</HashRouter>
 );
