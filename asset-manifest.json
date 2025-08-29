@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blood_device_land_portfolio/static/css/main.035ea38a.css",
-    "main.js": "/blood_device_land_portfolio/static/js/main.0d1c9f30.js",
+    "main.js": "/blood_device_land_portfolio/static/js/main.075f5d04.js",
     "static/media/image1.mp4": "/blood_device_land_portfolio/static/media/image1.6fdb328fe9dc92b8b461.mp4",
     "static/media/writer.png": "/blood_device_land_portfolio/static/media/writer.ee88d48332729e2a091d.png",
     "static/media/image2.jpg": "/blood_device_land_portfolio/static/media/image2.0e8b1ae16180c91c5d60.jpg",
@@ -18,10 +18,10 @@
     "static/media/thumb-up.webp": "/blood_device_land_portfolio/static/media/thumb-up.c77aa86eed4b9abdbf82.webp",
     "index.html": "/blood_device_land_portfolio/index.html",
     "main.035ea38a.css.map": "/blood_device_land_portfolio/static/css/main.035ea38a.css.map",
-    "main.0d1c9f30.js.map": "/blood_device_land_portfolio/static/js/main.0d1c9f30.js.map"
+    "main.075f5d04.js.map": "/blood_device_land_portfolio/static/js/main.075f5d04.js.map"
   },
   "entrypoints": [
     "static/css/main.035ea38a.css",
-    "static/js/main.0d1c9f30.js"
+    "static/js/main.075f5d04.js"
   ]
 }
