@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/blood_device_land_portfolio/static/css/main.035ea38a.css",
-    "main.js": "/blood_device_land_portfolio/static/js/main.1b5b0cbb.js",
-    "static/media/image1.mp4": "/blood_device_land_portfolio/static/media/image1.6fdb328fe9dc92b8b461.mp4",
-    "static/media/writer.png": "/blood_device_land_portfolio/static/media/writer.ee88d48332729e2a091d.png",
-    "static/media/image2.jpg": "/blood_device_land_portfolio/static/media/image2.0e8b1ae16180c91c5d60.jpg",
-    "static/media/product-metene.jpg": "/blood_device_land_portfolio/static/media/product-metene.a8a4a468bd0f982572e2.jpg",
-    "static/media/product-careliving.jpg": "/blood_device_land_portfolio/static/media/product-careliving.b17747b8af2609c5120a.jpg",
-    "static/media/product-vitals.jpg": "/blood_device_land_portfolio/static/media/product-vitals.0d85fac3ce73183bdf22.jpg",
-    "static/media/banner.jpg": "/blood_device_land_portfolio/static/media/banner.2d375f2ccd3dc82af8ed.jpg",
-    "static/media/product-freshcare.jpg": "/blood_device_land_portfolio/static/media/product-freshcare.7288843b933d0b163628.jpg",
-    "static/media/product-stelo.jpg": "/blood_device_land_portfolio/static/media/product-stelo.762d43adb4cfe5f9270f.jpg",
-    "static/media/bestseller.webp": "/blood_device_land_portfolio/static/media/bestseller.d67b74b8b7a27ee100d0.webp",
-    "static/media/first.png": "/blood_device_land_portfolio/static/media/first.a06b90722ee6de6a82b9.png",
-    "static/media/building.webp": "/blood_device_land_portfolio/static/media/building.6f40c307bb530bb68905.webp",
-    "static/media/box.webp": "/blood_device_land_portfolio/static/media/box.2a757c3db2d31d61c1ca.webp",
-    "static/media/thumb-up.webp": "/blood_device_land_portfolio/static/media/thumb-up.c77aa86eed4b9abdbf82.webp",
-    "index.html": "/blood_device_land_portfolio/index.html",
-    "main.035ea38a.css.map": "/blood_device_land_portfolio/static/css/main.035ea38a.css.map",
-    "main.1b5b0cbb.js.map": "/blood_device_land_portfolio/static/js/main.1b5b0cbb.js.map"
+    "main.css": "/static/css/main.1eebead1.css",
+    "main.js": "/static/js/main.fd6bde9f.js",
+    "static/media/image1.mp4": "/static/media/image1.6fdb328fe9dc92b8b461.mp4",
+    "static/media/writer.png": "/static/media/writer.ee88d48332729e2a091d.png",
+    "static/media/image2.jpg": "/static/media/image2.0e8b1ae16180c91c5d60.jpg",
+    "static/media/product-metene.jpg": "/static/media/product-metene.a8a4a468bd0f982572e2.jpg",
+    "static/media/product-careliving.jpg": "/static/media/product-careliving.b17747b8af2609c5120a.jpg",
+    "static/media/product-vitals.jpg": "/static/media/product-vitals.0d85fac3ce73183bdf22.jpg",
+    "static/media/banner.jpg": "/static/media/banner.2d375f2ccd3dc82af8ed.jpg",
+    "static/media/product-freshcare.jpg": "/static/media/product-freshcare.7288843b933d0b163628.jpg",
+    "static/media/product-stelo.jpg": "/static/media/product-stelo.762d43adb4cfe5f9270f.jpg",
+    "static/media/bestseller.webp": "/static/media/bestseller.d67b74b8b7a27ee100d0.webp",
+    "static/media/first.png": "/static/media/first.a06b90722ee6de6a82b9.png",
+    "static/media/building.webp": "/static/media/building.6f40c307bb530bb68905.webp",
+    "static/media/box.webp": "/static/media/box.2a757c3db2d31d61c1ca.webp",
+    "static/media/thumb-up.webp": "/static/media/thumb-up.c77aa86eed4b9abdbf82.webp",
+    "index.html": "/index.html",
+    "main.1eebead1.css.map": "/static/css/main.1eebead1.css.map",
+    "main.fd6bde9f.js.map": "/static/js/main.fd6bde9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.035ea38a.css",
-    "static/js/main.1b5b0cbb.js"
+    "static/css/main.1eebead1.css",
+    "static/js/main.fd6bde9f.js"
   ]
 }
