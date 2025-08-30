@@ -1,3 +1,5 @@
+import { HashLink } from 'react-router-hash-link';
+
 import { DescriptionList } from '../DescriptionList/DescriptionList';
 import { Button } from '../Button/Button';
 import { Price } from '../Price';
@@ -35,9 +37,9 @@ export const ProductCard = ({ product, index, expanded }) => {
 				<DescriptionList list={product.featureList} columns={2} />
 			</div>
 			{index === 0 && (
-				<a href="/#review" className={styles.productCard__review}>
+				<HashLink to="/#review" smooth className={styles.productCard__review}>
 					&gt;&gt; Read Full Review &lt;&lt;
-				</a>
+				</HashLink>
 			)}
 			<div className={styles.productCard__info}>
 				<ProductInfo>
